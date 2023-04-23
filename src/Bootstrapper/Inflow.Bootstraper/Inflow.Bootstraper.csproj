@@ -2,6 +2,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\Inflow.Shared.Abstractions\Inflow.Shared.Abstractions.csproj" />
     <ProjectReference Include="..\..\Shared\Inflow.Shared.Infrastructure\Inflow.Shared.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Customers\Inflow.Modules.Customers.Api\Inflow.Modules.Customers.Api.csproj" />
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
