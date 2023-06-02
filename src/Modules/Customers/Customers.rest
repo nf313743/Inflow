@@ -1,0 +1,11 @@
+@url = http://localhost:5153/customers
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "email":"user@inflow.io"
+}
+
+###
+GET {{url}}/f4f40510-4fb8-4589-af49-df781bcf4d46

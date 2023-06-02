@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6CE1EC8-2A2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{0EC75E56-ED14-4700-B031-75D379873685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inflow.Bootstraper", "src\Bootstrapper\Inflow.Bootstraper\Inflow.Bootstraper.csproj", "{DDE88E2E-DE00-4C33-8FD6-715B3B3A79D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inflow.Bootstrapper", "src\Bootstrapper\Inflow.Bootstrapper\Inflow.Bootstrapper.csproj", "{DDE88E2E-DE00-4C33-8FD6-715B3B3A79D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{202029A5-561D-43CA-9D1C-7E17566F0CE5}"
 EndProject

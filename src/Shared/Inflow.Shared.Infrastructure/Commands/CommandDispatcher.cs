@@ -13,7 +13,7 @@ internal sealed class CommandDispatcher : ICommandDispatcher
         _serviceProvider = serviceProvider;
     }
 
-    public async Task Send<TCommand>(TCommand command, CancellationToken cancellationToken)
+    public async Task SendAsync<TCommand>(TCommand command, CancellationToken cancellationToken)
         where TCommand : class, ICommand
     {
         if (command is null)

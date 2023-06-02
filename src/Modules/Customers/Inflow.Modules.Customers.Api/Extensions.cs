@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 
-[assembly: InternalsVisibleTo("Inflow.Bootstraper")]
+[assembly: InternalsVisibleTo("Inflow.Bootstrapper")]
 namespace Inflow.Modules.Customers.Api;
 
 internal static class Extensions
