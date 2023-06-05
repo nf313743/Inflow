@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/Bootstrapper/Inflow.Bootstraper/bin/Debug/net7.0/Inflow.Bootstraper.dll",
+            "program": "${workspaceFolder}/src/Bootstrapper/Inflow.Bootstrapper/bin/Debug/net7.0/Inflow.Bootstrapper.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/Bootstrapper/Inflow.Bootstraper",
+            "cwd": "${workspaceFolder}/src/Bootstrapper/Inflow.Bootstrapper",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {
@@ -24,7 +24,9 @@
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
-            }
+            },
+            "launchSettingsProfile": "http"
+            //"launchSettingsFilePath": "${workspaceFolder}/src/Bootstrapper/Inflow.Bootstrapper/Properties/launchSettings.json"
         },
         {
             "name": ".NET Core Attach",
